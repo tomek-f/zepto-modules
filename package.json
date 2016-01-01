@@ -1,0 +1,12 @@
+{
+  "name": "zepto-cmnjs",
+  "version": "0.0.0",
+  "description": "Zepto in CommonJS modules",
+  "repository": "tomek-f/zepto-cmnjs",
+  "keywords": [
+    "zepto",
+    "CommonJS"
+  ],
+  "author": "Tomasz Fijoł",
+  "license": "MIT"
+}
