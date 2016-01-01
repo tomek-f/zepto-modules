@@ -2,7 +2,7 @@
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
 
-var $ = require('./zepto');
+import $ from './zepto';
 
 // Create a collection of callbacks to be fired in a sequence, with configurable behaviour
 // Option flags:

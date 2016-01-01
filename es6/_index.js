@@ -1,8 +1,8 @@
-var $ = require('./zepto');
+import $ from './zepto';
 
-require('./event');
-require('./ajax');
-require('./form');
-require('./ie');
+import './event';
+import './ajax';
+import './form';
+import './ie';
 
-module.exports = $;
+export default $;

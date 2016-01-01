@@ -4,7 +4,7 @@
 
 // The following code is heavily inspired by jQuery's $.fn.data()
 
-var $ = require('./zepto');
+import $ from './zepto';
 
 var data = {}, dataAttr = $.fn.data, camelize = $.camelCase,
   exp = $.expando = 'Zepto' + (+new Date()), emptyArray = []

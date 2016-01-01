@@ -1,11 +1,11 @@
-var $ = require('./zepto');
+import $ from './zepto';
 
-require('./event');
-require('./form');
-require('./ie');
-require('./detect');
-require('./data');
-require('./touch');
-require('./stack');
+import './event';
+import './form';
+import './ie';
+import './detect';
+import './data';
+import './touch';
+import './stack';
 
-module.exports = $;
+export default $;

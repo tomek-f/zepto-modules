@@ -2,7 +2,7 @@
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
 
-var $ = require('./zepto');
+import $ from './zepto';
 
 var document = window.document, docElem = document.documentElement,
   origShow = $.fn.show, origHide = $.fn.hide, origToggle = $.fn.toggle

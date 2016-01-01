@@ -4,7 +4,7 @@
 //
 //     Some code (c) 2005, 2013 jQuery Foundation, Inc. and other contributors
 
-var $ = require('./zepto');
+import $ from './zepto';
 
 var slice = Array.prototype.slice
 
