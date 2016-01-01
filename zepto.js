@@ -993,4 +993,4 @@ var Zepto = (function () {
   return $
 })()
 
-module.export = Zepto;
+module.exports = Zepto;
