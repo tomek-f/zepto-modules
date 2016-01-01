@@ -1,13 +1,14 @@
 {
-  "name": "zepto-cmnjs",
+  "name": "zepto-modules",
   "version": "0.0.0",
   "description": "Zepto in CommonJS modules",
-  "repository": "tomek-f/zepto-cmnjs",
+  "repository": "tomek-f/zepto-modules",
   "keywords": [
     "zepto",
     "CommonJS"
   ],
   "main": "_index.js",
-  "author": "Tomasz Fijoł",
-  "license": "MIT"
+  "author": "Tomek Fijoł",
+  "license": "MIT",
+  "readmeFilename": "README.md"
 }
