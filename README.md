@@ -13,19 +13,19 @@ $ npm install --save zepto-modules
 Configs (recommended):
 
 ```javascript
-// default config
+// default config (zepto, event, ajax, form, ie)
 var $ = require('zepto-modules');
 // or
 //var $ = require('zepto-modules/_default');
 
 // --------------------------------
 
-// custom config
+// custom config (zepto, event, form, ie, detect, data, touch, stack)
 var $ = require('zepto-modules/_custom');
 
 // --------------------------------
 
-// min config
+// min config (zepto, event, ie, stack)
 var $ = require('zepto-modules/_min');
 
 // --------------------------------
@@ -56,6 +56,22 @@ require('zepto-modules/event');
 require('zepto-modules/ie'); // kinda important
 
 // rest of module
+```
+
+You can extend configs:
+
+```javascript
+var $ = require('zepto-modules/_custom');
+
+require('zepto-modules/ajax')
+
+$.ajax({
+  type: 'GET',
+  url: '/projects',
+  success: function(data) {
+    // do sth
+  }
+});
 ```
 
 ## ES6 version
@@ -91,9 +107,9 @@ import $ from './es6/zepto';
 var each = require('cmnjs/each');
 
 import './es6/event';
-import './es6/ajax';
-import './es6/form';
 import './es6/ie';
+
+// rest of module
 ```
 
 ## Changelog
