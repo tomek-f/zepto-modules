@@ -1,14 +1,18 @@
 {
   "name": "zepto-modules",
   "version": "0.0.0",
-  "description": "Zepto in CommonJS modules",
+  "description": "Zepto in CommonJS (and ES6) modules",
   "repository": "tomek-f/zepto-modules",
   "keywords": [
     "zepto",
     "CommonJS"
   ],
-  "main": "_index.js",
+  "main": "_default.js",
   "author": "Tomek Fijoł",
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "files": [
+    "es6",
+    "*.js"
+  ]
 }
