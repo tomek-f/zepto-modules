@@ -2,6 +2,7 @@
 
 ## 1.0.0
 
+* second release (zepto@28.09.2016 - 1.2.0 with changes)
 * remove es6 modules (useless)
 
 ## 0.0.0
