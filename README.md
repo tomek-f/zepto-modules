@@ -12,7 +12,7 @@ $ npm install --save zepto-modules
 
 Configs (recommended):
 
-```javascript
+```js
 // default config (zepto, event, ajax, form, ie)
 var $ = require('zepto-modules');
 // or
@@ -47,7 +47,7 @@ var $ = require('./my-zepto');
 
 `When-you-need-it` &trade;:
 
-```javascript
+```js
 var $ = require('zepto-modules/zepto');
 var each = require('cmnjs/each');
 
@@ -60,7 +60,7 @@ require('zepto-modules/ie'); // kinda important
 
 You can extend configs:
 
-```javascript
+```js
 var $ = require('zepto-modules/_custom');
 
 require('zepto-modules/ajax')
@@ -72,44 +72,6 @@ $.ajax({
     // do sth
   }
 });
-```
-
-## ES6 version
-
-copy (for now) modules from `./es6` dir to your location and import them
-
-```javascript
-// configs
-import $ from './es6/_default'
-//import $ from './es6/_custom'
-//import $ from './es6/_min'
-
-// --------------------------------
-
-// own config (./my-zepto)
-
-import $ from './es6/zepto';
-
-import './es6/event';
-import './es6/ajax';
-import './es6/form';
-import './es6/ie';
-
-export default $;
-
-// later
-import $ from './my-zepto'
-
-// --------------------------------
-
-// own module
-import $ from './es6/zepto';
-var each = require('cmnjs/each');
-
-import './es6/event';
-import './es6/ie';
-
-// rest of module
 ```
 
 ## Changelog
