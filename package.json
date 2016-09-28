@@ -12,7 +12,6 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "files": [
-    "es6",
     "*.js"
   ]
 }
