@@ -74,6 +74,14 @@ $.ajax({
 });
 ```
 
+## ES6
+
+```js
+import $ from 'zepto-modules';
+// or
+// import $ from 'zepto-modules/_default';
+```
+
 ## Changelog
 
 [View on github](https://github.com/tomek-f/zepto-modules/blob/master/changelog.md).
