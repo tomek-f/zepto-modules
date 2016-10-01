@@ -1,5 +1,9 @@
 # changelog
 
+## 1.0.1
+
+* Zepto link and version in README
+
 ## 1.0.0
 
 * second release (zepto@28.09.2016 - 1.2.0 with changes)

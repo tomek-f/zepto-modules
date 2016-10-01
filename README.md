@@ -1,6 +1,6 @@
 # zepto-modules
 
-> Zepto in CommonJS (and ES6) modules
+> [Zepto](https://www.npmjs.com/package/zepto) (zepto@28.09.2016 - 1.2.0) in CommonJS modules
 
 ## Installation
 
