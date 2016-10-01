@@ -1,6 +1,6 @@
 {
   "name": "zepto-modules",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Zepto in CommonJS modules",
   "repository": "tomek-f/zepto-modules",
   "keywords": [
